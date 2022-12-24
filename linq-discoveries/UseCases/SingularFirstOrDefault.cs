@@ -1,7 +1,6 @@
 ﻿using System;
 using linq_discoveries.Models;
 using linq_discoveries.Data;
-using System.Runtime.Intrinsics.X86;
 
 namespace linq_discoveries.UseCases
 {
