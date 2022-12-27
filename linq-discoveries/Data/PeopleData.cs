@@ -4,12 +4,13 @@ namespace linq_discoveries.Data
 {
 	public static class PeopleData
 	{
-		public static List<Person> People = new List<Person>
+		public static List<Person> ThreePeople = new List<Person>
 		{
 			new Person
 			{
 				Id = 1,
 				FirstName = "John",
+				DateOfBirth = DateTime.Parse("1998-01-01"),
 				Addresses = new List<Address>
 				{
 					new Address
@@ -30,6 +31,7 @@ namespace linq_discoveries.Data
             {
                 Id = 2,
                 FirstName = "Tony",
+                DateOfBirth = DateTime.Parse("2000-01-01"),
                 Addresses = new List<Address>
                 {
                     new Address
@@ -39,6 +41,12 @@ namespace linq_discoveries.Data
                         State = "Queensland"
                     },
                 }
+            },
+            new Person
+            {
+                Id = 3,
+                FirstName = "Jason",
+                DateOfBirth = DateTime.Parse("2002-01-01"),
             }
         };
 	}
